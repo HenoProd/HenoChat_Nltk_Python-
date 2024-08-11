@@ -1,0 +1,19 @@
+{
+    "intents": [
+        {
+            "tag": "name",
+            "patterns": ["Quel est ton prénom ?", "Qui es-tu ?", "Comment t’appelles-tu ?"],
+            "responses": ["Je m'appelle Chatbot !"]
+        },
+        {
+            "tag": "age",
+            "patterns": ["Quel âge as-tu ?", "Quand es-tu né ?", "Date de naissance ?"],
+            "responses": ["Je suis un chatbot, je n'ai pas d'âge !"]
+        },
+        {
+            "tag": "greeting",
+            "patterns": ["Bonjour", "Salut", "Coucou"],
+            "responses": ["Salut ! Comment puis-je t'aider ?"]
+        }
+    ]
+}
